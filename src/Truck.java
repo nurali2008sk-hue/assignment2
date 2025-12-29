@@ -21,4 +21,13 @@ public class Truck extends Vehicle {
     public double calculateEfficiency() {
         return capacity / numAxles;
     }
+
+    // Геттеры для доступа к приватным полям
+    public double getCapacity() {
+        return capacity;
+    }
+
+    public int getNumAxles() {
+        return numAxles;
+    }
 }
